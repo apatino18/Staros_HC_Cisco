@@ -1,0 +1,51 @@
+# StarOs Param File to measure HC PASS/FAILED
+# Customer Name for Health Check
+customer_name : AT&T Mexico
+
+#Memory Usage % and CPU % to return failed message
+memory_usage: 60
+cpu_usage: 60
+
+#% of transfer Bulkstats to node
+bulk_success_rate: 90
+
+#Days for licence to expire
+license_exp_days: 15
+
+#Amount of Days since last restart
+days_up: 1
+
+#Number of current alarms
+minor_alarm: 3
+major_alarm: 1
+critical_alarm: 1
+
+#Days from last bug
+bug_days: 1
+
+#Amount of non critical traps to failed
+trap_failure: 3
+
+#Port Balance deviation
+p_dev: 20
+
+# NPU % 
+npu_percent: 20
+
+# Number of traps to evaluate , reject % to failed test 
+num_traps: 10
+reject_percent : 20
+
+# Disconnect % to failed as critical, Disconnect % to failed as soft disconnect , amount of soft disconnect to failed
+crit_disconnect : 100
+soft_disconnect : 30
+failing_disconnect: 3
+
+#Assume Possitive Sessions Gy 
+assume_possitive : 500
+
+#Diameter Perrs
+diam_peers : 1
+
+#Fallback Sessions Gx
+fallback_sessions : 200
